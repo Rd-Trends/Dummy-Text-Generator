@@ -83,7 +83,7 @@ function copyToClipboard(e) {
   e.preventDefault()
 
   //store all paragraph as a variable
-  let copyText = textBody.textConten;
+  let copyText = textBody.textContent;
 
   //create a textarea
   let copiedText = document.createElement('textarea')
